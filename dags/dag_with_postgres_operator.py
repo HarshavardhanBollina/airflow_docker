@@ -46,5 +46,6 @@ with DAG(
         python_callable=load_csv_to_postgres
     )
 
+# two tasks
 
     task1>>task2
